@@ -1,0 +1,1 @@
+ffmpeg -y -loglevel fatal -rtsp_transport tcp -i rtsp://admin:ahH2OoVJLy_@192.168.0.246:1554 -frames:v 2 -r 1 -s 320x240 $1
